@@ -1,0 +1,65 @@
+{
+    "twb": 
+    [
+        {
+            "uuid": "",
+            "module": "String",
+            "section": "String",
+            "instruction": "String",
+            "locked": false,
+            "next": "b",
+            "additionalInfo": "String",
+            "questions": [
+                {
+                    "item": "Int",
+                    "type": "String",
+                    "keyword": "String",
+                    "question": "String",
+                    "choices": [],
+                    "answer": null,
+                    "correctAnswer": "String"
+                }
+            ]
+        }
+    ],
+    "codebook": [
+        {
+            "section": "",
+            "infos": []
+        }
+    ],
+    "commonOccupation": [
+        {
+            "industry": "",
+            "psic": "",
+            "occupation": "",
+            "psoc": "",
+            "cow": ""
+        }
+    ],
+    "showcards": [
+        {
+            "item": "",
+            "code": "",
+            "label": "",
+            "imagePath": ""
+        }
+    ],
+    "twbScore": [
+        {
+            "userId": "",
+            "userType": "Int",
+            "twbId": "uuid",
+            "name": "String",
+            "dateTaken": "Timestamp",
+            "score": "Int"
+        }
+    ],
+    "userLog": [
+        {
+            "userId": "",
+            "activity": "Int (ENUM)",
+            "activityDate": "Timestamp"
+        }
+    ]
+}
