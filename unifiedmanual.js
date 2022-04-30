@@ -10,6 +10,8 @@ admin.initializeApp({
     credential: admin.credential.cert(credentials)
 })
 
+const db = admin.firestore()
+
 app.use(express.json({limit: maxRequestBodySize}))
 
 app.use(express.urlencoded({limit: maxRequestBodySize, extended: true}))
@@ -530,10 +532,7 @@ app.post('/test/create', async (req, res) => {
 
 // End Test Create
 
-
-const db = admin.firestore()
-
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT || 3000
 app.listen(PORT, () => {
     console.log(`Server is up and running on PORT: ${PORT}.`);
 })
